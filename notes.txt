@@ -1,0 +1,48 @@
+For 3.17, I can roughly imagine how that will work. However, why is this a star
+problem? It does not sound that difficult to me.
+
+Oh boy, procrastinating all day. Not a good idea. Let's just stop dreaming about
+K2, we all know it's extremely unlikely. Let's just get a job first. Barkley
+seems much more possible than K2 all things considered.
+
+For 3.17, how exactly do we create a new phonebook entry? Also how to update
+phone number of existing entry? HTTP PUT request? What is that? Modify the
+backend? At least I somewhat get this part. I believe it has something to do 
+with index.js. Just do something in there first. But then ensuring the frontend
+also works... Not that dumb package thing.
+
+Okay, maybe mongo.js is actually the thing to fix here, not index.js. When I
+try to add a new number, the page deletes the entry. But upon reloading the page,
+the entry appears again with no modification.
+
+Actually, it is in the build thing. App.js of part2. That's what we need to fix.
+Goddamn it, how to I extract a new build now?
+
+Okay, so clearly some error has happened. The code caught it, and it attempts to
+remove the contact number, while in actuality it just hides the info.
+
+Build is fucking slow. I have to log in to MongoDB Atlas to manually delete the
+false entries. Also, what do you mean when I delete some entries it says "undefined"?
+Why can you not extract the object's id? May need to fix const deletePerson now...
+
+Okay, so the problem still lies in Part 2 then. It's not Part 3 that needs fixing.
+It's in Part 3. We did it.
+
+For 3.19, first we fix the schema for validation. Never mind, those steps does
+not work. The delete button also does not work for unknown reasons. First let's
+just fix the delete button. Then we can worry about 3.19. At least the filter'
+still works.
+
+Delete button fixed. For 3.19, again I assume the problem lies in part3, not 
+part2. 
+
+Goddamn, I am worried that the backend no longer works. I think we need to redo 
+the tutorial of part2 and part3.
+
+3.19 done. That said, I have been lazy the entire day. It gets depressing trying
+to get a job. But whatever. Even if I only study for 30 minutes a day, I have to
+make it count. Something is always better than nothing after all.
+
+For 3.20, it's probably just purely part3. I think this one will be easier than
+3.19 though. Should take 2 hours at most.
+

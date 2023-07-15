@@ -1,0 +1,3 @@
+GET https://phonebook-3-10.onrender.com/info
+Content-Type: application/json
+
