@@ -10,7 +10,7 @@ const password = process.argv[2]
 const url = `mongodb+srv://fullstack:${password}@cluster0.fogxktw.mongodb.net/?retryWrites=true&w=majority`
 
 mongoose.set('strictQuery', false)
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(url)
 
 // MongoDB assigns ids randomly so I won't be including it for now.
 // Oh boy, guess we have to do it the traditional if else way.
